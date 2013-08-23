@@ -1,0 +1,19 @@
+{
+  "name": "node-dev-server",
+  "version": "0.0.1",
+  "description": "Simple HTTP server for localhost development",
+  "main": "server.js",
+  "bin": "server.js",
+  "keywords": [
+    "simple",
+    "http",
+    "nodejs",
+    "server"
+  ],
+  "git": "git@github.com:alexanderbeletsky/node-dev-server.git",
+  "author": "alexander.beletsky@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "connect": "~2.8.5"
+  }
+}
