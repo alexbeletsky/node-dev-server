@@ -29,8 +29,10 @@ $ npm install node-dev-server
 Run it,
 
 ```bash
-$ node ./node_modules/bin/.node-dev-server
+$ node ./node_modules/.bin/node-dev-server
 ```
+
+Server is started on port 8080.
 
 # License
 
