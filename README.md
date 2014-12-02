@@ -4,9 +4,9 @@ Ideal for local single page applications development
 
 ## Description
 
-Then you develop client-side applications, you can be hit by few problems: browser prohibit access resources, if app is started from `file://...` or some client routing problems.
+When you develop client-side applications, you can be hit by few problems. For example, if you visit the app from a `file://` URL, browsers will prohibit access resources.
 
-Entry point of application is `index.html` and you want to serve it from `http://localhost:8080`.
+This HTTP server will serve files from your current directory in order to get around browser restrictions. `index.html` will be served at `http://localhost:8080/`, and other files will be served if you just add their name to the end of that URL.
 
 It's very similar to [SimpleHTTPServer](http://www.linuxjournal.com/content/tech-tip-really-simple-http-server-python), but more suitable if you don't want to stick to Python environment and use Node.js instead.
 
